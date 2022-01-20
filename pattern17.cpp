@@ -1,15 +1,15 @@
-/*Enter a number : 3
-1 * 2 * 3 * 10 * 11 * 12
-    4 * 5 * 8 * 9
-        6 * 7
-*/
+// Enter a number : 3
+// 1 * 2 * 3 * 10 * 11 * 12
+//     4 * 5 * 8 * 9
+//         6 * 7
+
 #include<iostream>
 using namespace std;
 int main()
 {
 	int n, c=0, b=1;
     cin >> n;
-    int d=n*(n+1)-n;
+    int d = n*(n+1)-n;
     n = n+1;
     while(n--)
     {
